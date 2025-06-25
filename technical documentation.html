@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>JavaScript Documentation</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Basics" class="nav-link">Basics</a>
+    <a href="#Data_Types" class="nav-link">Data Types</a>
+    <a href="#Functions" class="nav-link">Functions</a>
+    <a href="#DOM_Manipulation" class="nav-link">DOM Manipulation</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>JavaScript is a versatile programming language used for web development.</p>
+      <p>It can run in the browser and on servers with Node.js.</p>
+      <p>It's an essential language for front-end development.</p>
+      <p>JavaScript allows you to create dynamic and interactive web pages.</p>
+      <p>This documentation introduces core concepts of JavaScript.</p>
+      <code>console.log('Hello, world!');</code>
+    </section>
+
+    <section class="main-section" id="Basics">
+      <header>Basics</header>
+      <p>JavaScript syntax is simple and beginner-friendly.</p>
+      <p>You can declare variables using let, const, or var.</p>
+      <p>Statements end with a semicolon (optional but recommended).</p>
+      <p>JavaScript is case-sensitive.</p>
+      <p>Blocks of code are enclosed in curly braces `{}`.</p>
+      <code>let x = 5;</code>
+      <code>const y = 10;</code>
+      <ul>
+        <li>Variables</li>
+        <li>Operators</li>
+        <li>Conditionals</li>
+        <li>Loops</li>
+        <li>Functions</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Data_Types">
+      <header>Data Types</header>
+      <p>JavaScript supports multiple data types:</p>
+      <p>Primitive types: string, number, boolean, null, undefined, symbol.</p>
+      <p>Objects include arrays, functions, and regular objects.</p>
+      <p>Type conversion happens implicitly and explicitly.</p>
+      <p>You can check types using `typeof`.</p>
+      <code>typeof "hello"; // string</code>
+      <code>typeof 42; // number</code>
+      <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Object</li>
+        <li>Array</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions allow you to encapsulate logic and reuse code.</p>
+      <p>You can declare functions using the `function` keyword or as arrow functions.</p>
+      <p>Functions can accept parameters and return values.</p>
+      <p>Arrow functions are more concise and use the `=>` syntax.</p>
+      <p>Anonymous functions are often used as callbacks.</p>
+      <code>function greet(name) { return "Hello " + name; }</code>
+      <code>const add = (a, b) => a + b;</code>
+      <ul>
+        <li>Function Declaration</li>
+        <li>Function Expression</li>
+        <li>Arrow Function</li>
+        <li>Callback Function</li>
+        <li>Anonymous Function</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="DOM_Manipulation">
+      <header>DOM Manipulation</header>
+      <p>The Document Object Model (DOM) represents web page structure.</p>
+      <p>You can access and manipulate elements using JavaScript.</p>
+      <p>Common methods include `getElementById`, `querySelector`, etc.</p>
+      <p>Event listeners allow interaction handling.</p>
+      <p>JavaScript can create, update, or delete HTML elements.</p>
+      <code>document.getElementById('demo').innerText = "Changed!";</code>
+      <code>document.querySelector('p').style.color = 'blue';</code>
+      <ul>
+        <li>Access Elements</li>
+        <li>Change Content</li>
+        <li>Modify Styles</li>
+        <li>Add/Remove Elements</li>
+        <li>Attach Events</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
